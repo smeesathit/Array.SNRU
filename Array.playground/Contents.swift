@@ -31,5 +31,24 @@ douArrayNum4 = [2.1, 2.2, 2.3]
 print("intArrayNumber2 ==> \(intArrayNumber2)")
 intArrayNumber2.append(1111)
 
-print("strArrayName2 ==> \(strArrayName2)" )
+strArrayName2
 strArrayName2.append("Neptune")
+
+
+// Finding array size
+strArrayName2.count
+
+// Getting a value in array using index
+print("strArrayName2 at index = 3 value is ==> \(strArrayName2[3])" )
+
+// Deleting array element
+strArrayName2
+strArrayName2.remove(at: 1)
+print(strArrayName2)
+
+// Sorting array elements
+var intA = [9, 5, 7, 1, 3, 10]
+intA.sort()
+print(intA)
+
+
