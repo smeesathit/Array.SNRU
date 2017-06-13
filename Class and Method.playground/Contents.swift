@@ -14,8 +14,19 @@ class MyClass {
         print("This is Void method")
     }
     
-    func <#name#>(<#parameters#>) -> <#return type#> {
-        <#function body#>
+    // Defining a method or function : void type
+    func myReturnType() -> Int {
+        let intResult = intNumber * 5
+        
+        return intResult
+    }
+    
+    // Defining method with parameter & return type
+    func myOfficer(strTitle: String, strDetail: String) -> String {
+        let strOfficer = strTitle + " " + strName + " " + strDetail
+        
+        return strOfficer
+        
     }
     
 } // End MyClass
@@ -34,3 +45,11 @@ print("After ==> \(myClass.strName)")
 
 // Calling void method
 myClass.myVoidType()
+
+// Calling return method
+var intMyResult = myClass.myReturnType()
+print("intMyResult ==> \(intMyResult)")
+
+// Calling method with argument & return value
+var strMyStudent = myClass.myOfficer(strTitle: "Title", strDetail: "Detail")
+print("strMyStudent ==> \(strMyStudent)" )
