@@ -26,3 +26,10 @@ var douArrayNum3 = [1.2, 1.3, 1.4]
 // Explicit Declaration
 var douArrayNum4 = [Double]()
 douArrayNum4 = [2.1, 2.2, 2.3]
+
+// Add array element
+print("intArrayNumber2 ==> \(intArrayNumber2)")
+intArrayNumber2.append(1111)
+
+print("strArrayName2 ==> \(strArrayName2)" )
+strArrayName2.append("Neptune")
